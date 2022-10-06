@@ -13,7 +13,8 @@ ASSIGNMENT RULES
 */
 
 /* The main datatypes in Javascript are Integear (int), String and Boolean. An integear is a number. A string is a 'string' of charachters, usually a word or sentance. 
-Boolean is a data type which can only have 2 values - true or false. It's used commonly when finding the outcome of a comparsion or a conditonal  */
+Boolean is a data type which can only have 2 values - true or false. It's used commonly when finding the outcome of a comparsion or a conditonal.
+2 more data types are also NULL & Undefined - although they are very similar. Null means the variable is empty whereas undefined does not contain anything. */
 
 /* EXERCISE 2
  Try to describe what a variable is, in your own words.
@@ -56,7 +57,8 @@ let name1 = "john"
 let name2 = "John"
 
 let compareNameFalse = name1 === name2
-let compareNameTrue = name1 !== name2
+let compareNameTrue = name2.toLowerCase() === name1 ? true : false
+console.log(name1, name2)
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
@@ -64,15 +66,15 @@ let compareNameTrue = name1 !== name2
 */
 
 let x = 6
-if (x = 1) { console.log('One') }
-if (x = 2) { console.log('Two') }
-if (x = 3) { console.log('Three') }
-if (x = 4) { console.log('Four') }
-if (x = 5) { console.log('Five') }
-if (x = 6) { console.log('Six') }
-if (x = 7) { console.log('Seven') }
-if (x = 8) { console.log('Eight') }
-if (x = 9) { console.log('Nine') }
+if (x === 1) { console.log('One') }
+if (x === 2) { console.log('Two') }
+if (x === 3) { console.log('Three') }
+if (x === 4) { console.log('Four') }
+if (x === 5) { console.log('Five') }
+if (x === 6) { console.log('Six') }
+if (x === 7) { console.log('Seven') }
+if (x === 8) { console.log('Eight') }
+if (x === 9) { console.log('Nine') }
 
 
 /* EXERCISE 9
